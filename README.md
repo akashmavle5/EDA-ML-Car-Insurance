@@ -20,13 +20,15 @@ This is a project in which I use _Car Insurance Claim_ Dataset from Kaggle to ge
 - Create target variable and feature dataframe
 - Convert categorical data types to numeric
 - Split dataset into training and test data
+- Scale training data
 - Run different categorical machine learning models: 
     - Gaussian Naive Bayes
     - Logistic Regression
     - Support Vector Machines
-    - Decision Tree
     - Random Forest
     - k-Nearest Neighbors
-    - Gradient Boosting Classifier
 - Measure accuracy of each model using sklearn.metrics.accuracy_score
+- Analyze feature importance
 - Run various tests to determine best model
+
+### Final product is a model which takes in a customer's # of Demerit Points, Age, Car Crash Status, and Urbanicity and predicts with 75.35% accuracy whether the customer will make repeat insurance claims.
